@@ -103,7 +103,7 @@ footer {
         width: 70%; 
     }
     .footer-item p {
-        font-size: 15px;
+        font-size: 25px;
     }  
     .footer-item:hover {
         transform: scale(1.05);
