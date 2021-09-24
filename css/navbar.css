@@ -1,3 +1,23 @@
+@import url('root.css');
+
+
+/* <nav class="navbar">
+<div class="navbar-container">
+    <div class="logo">
+        <a href=""><img src="/Images/Ake.png" alt=""></a>
+    </div>
+    <ul class="menu"> 
+        <li><a href="" class="menu-btn"><span>B</span>okningar</a></li>
+        <li><a href="" class="menu-btn"><span>M</span>eny</a></li>
+        <li><a href="" class="menu-btn"><span>A</span>fter<span>W</span>ork</a></li>
+        <li><a href="Kontakt.html" class="menu-btn"><span>K</span>ontakta</a></li>
+    </ul>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+</nav> */
+
 .navbar {
     margin: 0;
     font-family: var(--ff-primary);
@@ -7,11 +27,12 @@
     transition: all 0.3s ease;
     width: 100%;
     z-index: 999;
+    border-bottom: 1px solid #111;
+    margin-bottom: 30px;
 }
 
 .navbar .navbar-container {
     width: 90%;
-    border-bottom: 1px solid #111;
     margin: 0 auto;
     margin-bottom: 30px;
     display: flex;
@@ -95,9 +116,13 @@
         margin: 20px 0;
         font-size: 30px;
     } 
+    .navbar .menu li a span {
+        color: var(--color-third);
+    }
 }
     @media (max-width:1000px) {
         .navbar .navbar-container {
             justify-content: space-evenly;
         }
+      
     }

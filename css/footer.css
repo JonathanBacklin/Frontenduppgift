@@ -1,0 +1,112 @@
+@import url('root.css');
+
+/* <footer>
+<div class="footer-container">
+    <div class="footer-item">
+        <!-- <i class="fas fa-phone"></i> -->
+    <a href=""><p>085-513-5435</p></a>
+</div>
+    <div class="footer-item">
+        <!-- <i class="fas fa-envelope"></i> -->
+   <a href=""><p>infoakebar @gmail.com</p></a>
+</div>
+    <div class="footer-item">
+    <!-- <i class="fas fa-map-marker-alt"></i> -->
+   <a href=""><p>Isafjordgatan 30A</p></a>
+</div>
+</div>
+<div class="medier">
+    <!-- <h1>Sociala Medier</h1> -->
+    <div class="sociala-medier">
+<a href=""><div class="footer-item-2"><i class="fab fa-instagram-square"></i></div></a>
+<a href=""><div class="footer-item-2"><i class="fab fa-twitter"></i></div></a>
+<a href=""><div class="footer-item-2"><i class="fab fa-facebook-square"></i></div></div></a> 
+</footer>
+</footer> */
+footer {
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    border-top: 1px solid #111;
+    padding: 30px;
+    margin-top: 40px;
+    
+}
+.footer-container {
+    grid-column: 1 / 7;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+   
+}
+
+.footer-item {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.footer-item p {
+    font-family: var(--ff-primary);
+}
+.footer-item:hover,
+.footer-item-2:hover {
+    transform: scale(1.15);
+}
+.footer-item i {
+    color: var(--color-fifth);
+}
+.footer-item a {
+    text-decoration:none;
+    list-style: none;
+    color: var(--color-secondary);
+}
+
+.medier {
+    grid-column: 7 / 13;
+    align-self: center;
+}
+.medier h1 {
+    text-align: center;
+}
+
+.sociala-medier {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+@media (max-width:1000px) {
+
+    footer {
+        display: block;
+        border: 1px solid #111;
+    }
+    .footer-container {
+        display: block;
+    }
+    .sociala-medier {
+        grid-column: 1 / 13;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .footer-item-2 {
+        margin: 40px 0;
+    }
+    
+    .footer-item {
+        margin: 30px auto;
+        padding: 30px;
+        width: 70%; 
+    }
+    .footer-item p {
+        font-size: 15px;
+    }  
+    .footer-item:hover {
+        transform: scale(1.05);
+    }
+    
+    }

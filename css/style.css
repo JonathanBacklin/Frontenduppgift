@@ -1,5 +1,6 @@
 @import url('root.css');
 @import url('navbar.css');
+@import url('footer.css');
 
 * {
     box-sizing: border-box;
@@ -16,15 +17,14 @@ p {
 }
 
 html, body {
-    background: linear-gradient(#eb8383, #8a90e7);
+    background: linear-gradient(#ffffff, #cccccc);
     margin: 0;
     padding: 0;
 }
 .content-section,
 .image-section,
 .oppettider,
-.main-wrapper h1,
-.footer-item {
+.main-wrapper h1 {
     border: 1px solid #111;
 }
 
@@ -47,6 +47,7 @@ header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 20px 0;
+    background-color: var(--color-fourth);
     
 }
 
@@ -57,6 +58,7 @@ header {
     height: 600px;
     border-radius: 10px;
     padding: 20px;
+    background-color: var(--color-fourth);
 }
 
 .image-section  .main-image {
@@ -86,11 +88,6 @@ header {
     text-decoration: none;
     list-style: none;
     border-bottom: 1px solid #111;
-}
-
-.pos span {
-    margin: 0 20px;
-    text-decoration: underline;
 }
 
 .pos h3 span {
@@ -134,57 +131,19 @@ main {
     font-family: var(--ff-primary);
     border-radius: 10px;
 }
+.main-wrapper p {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 20px;
+ }
+ .main-wrapper p span {
+     color: var(--color-third);
+ }
 
-.footer-container {
-    grid-column: 1 / 13;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    border-top: 1px solid #111;
-}
-
-footer {
-    grid-column: 1 / 13;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 10px;
-}
-.footer-item {
-    font-size: 40px;
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
-}
-.footer-item:hover {
-    transform: scale(1.15);
-}
-.footer-item i {
-    color: var(--color-fifth);
-}
-.footer-item a {
-    text-decoration:none;
-    list-style: none;
-    color: var(--color-secondary);
-}
 
 @media (max-width:1000px) {
 .image-section {
     display: block;
-}
-footer {
-    display: block;
-}
-
-.footer-item {
-    margin: 30px auto;
-    padding: 30px;
-    width: 70%; 
-}
-.footer-item p {
-    font-size: 15px;
-}  
-.footer-item:hover {
-    transform: scale(1.05);
 }
 
 }
