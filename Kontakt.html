@@ -4,9 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a2cb67837.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/kontakt.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="grid-container">
+        <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <div class="logo">
+                        <a href="index.html"><img src="/Images/Ake.png" alt=""></a>
+                    </div>
+                    <ul class="menu"> 
+                        <li><a href="" class="menu-btn"><span>B</span>okningar</a></li>
+                        <li><a href="" class="menu-btn"><span>M</span>eny</a></li>
+                        <li><a href="" class="menu-btn"><span>A</span>fter<span>W</span>ork</a></li>
+                        <li><a href="Kontakt.html" class="menu-btn"><span>K</span>ontakta</a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+             </nav>
+        </header>
+        <div class="contact-section">
+            <div class="main-section">
+                <h1>Kontakta Oss</h1>
+                <div class="main-content">
+                    <form action="/">
+                        <label for="fname">Förnamn</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Förnamn..">
+                    
+                        <label for="lname">Efternamn</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Efternamn..">
+                    
+                        <label for="reason">Anledning</label>
+                        <select id="reason" name="reason">
+                          <option value="questions"selected>Frågor</option>
+                          <option value="complaints">Klagomål</option>
+                          <option value="improvements">Förbättringar</option>
+                          <option value="other" >Annat</option>
+                        </select>
+                    
+                        <label for="subject"></label>
+                        <textarea id="subject" name="subject" placeholder="Meddelande.."></textarea>
+                        <input type="submit" value="Skicka">
+                      </form>
+                </div>
+
+            </div>
+            <div class="sidebar-section">
+                <div class="sociala-medier-box">
+                    <h1>Sociala Medier</h1>
+                    <div class="sociala-medier">
+                    <div class="sociala-medier-content"></div>                    
+                    <div class="sociala-medier-content"></div>                    
+                    <div class="sociala-medier-content"></div>    
+                </div>                            
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <!-- <i class="fas fa-phone"></i> -->
+            <a href=""><p>085-513-5435</p></a>
+        </div>
+            <div class="footer-item">
+                <!-- <i class="fas fa-envelope"></i> -->
+           <a href=""><p>infoakebar @gmail.com</p></a>
+        </div>
+            <div class="footer-item">
+            <!-- <i class="fas fa-map-marker-alt"></i> -->
+           <a href=""><p>Isafjordgatan 30A</p></a>
+        </div>
+        <div class="footer-item">
+            <a href=""><p>Jobba Hos Oss</p></a>
+         </div>
+        </div>
+        <div class="medier">
+            <!-- <h1>Sociala Medier</h1> -->
+            <div class="sociala-medier">
+        <a href=""><div class="footer-item-2"><i class="fab fa-instagram-square"></i></div></a>
+        <a href=""><div class="footer-item-2"><i class="fab fa-twitter"></i></div></a>
+        <a href=""><div class="footer-item-2"><i class="fab fa-facebook-square"></i></div></div></a> 
+        </footer>
+        </footer>
+        <script src="script.js"></script>
+</div>
 </body>
 </html>

@@ -1,0 +1,103 @@
+@import url('root.css');
+@import url('navbar.css');
+@import url('footer.css');
+@import url('style.css');
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    background: linear-gradient(#ffffff, #cccccc);
+}
+
+.contact-section, .main-section,.sidebar-section,.main-contact {
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+
+
+.grid-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / 13;
+}
+header {
+    grid-column: 1 / 13;
+}
+
+.contact-section {
+    grid-column: 1 / 13;
+    background-color: var(--color-fourth);
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 10px;
+    
+}
+.main-section {
+    grid-column: 1 / 7;
+    background-color: var(--color-fourth);
+    min-height: 100px;
+}
+
+.main-content {
+padding: 30px;
+}
+
+.main-content label {
+    font-family: var(--ff-primary);
+    font-weight: 600;
+}
+input[type=text],select, textarea {
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+input[type=submit] {
+    font-family: var(--ff-primary);
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.main-section h1 {
+    text-align: center;
+    text-decoration: underline;
+}   
+.sidebar-section {
+    grid-column: 8 / 13;
+    background-color: var(--color-fourth);
+    min-height: 100px;
+
+}
+
+.sociala-medier-box {
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media (max-width:1200px) {
+    .main-section {
+        grid-column: 1 / 13;
+}
+    .sidebar-section {
+        grid-column: 1 / 13;
+}
+
+}

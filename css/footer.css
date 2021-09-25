@@ -27,7 +27,7 @@ footer {
     grid-column: 1 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    border-top: 1px solid #111;
+    border-top: 2px solid #111;
     padding: 30px;
     margin-top: 40px;
     
@@ -81,10 +81,11 @@ footer {
 
     footer {
         display: block;
-        border: 1px solid #111;
+        border: 2px solid #111;
     }
     .footer-container {
         display: block;
+        padding: 0;
     }
     .sociala-medier {
         grid-column: 1 / 13;
@@ -94,11 +95,11 @@ footer {
     }
 
     .footer-item-2 {
-        margin: 40px 0;
+        margin: 10px 0;
     }
     
     .footer-item {
-        margin: 30px auto;
+        margin: 0 auto;
         padding: 30px;
         width: 70%; 
     }
