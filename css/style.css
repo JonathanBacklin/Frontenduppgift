@@ -2,30 +2,13 @@
 @import url('navbar.css');
 @import url('footer.css');
 
-* {
-    box-sizing: border-box;
-}
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: var(--ff-primary);
-}
-
-p {
-    font-family: var(--ff-secondary);
-    font-size: 20px;
-    
-}
-
-html, body {
-    background: linear-gradient(#ffffff, #cccccc);
-    margin: 0;
-    padding: 0;
-}
+/* förenkla koden för border radius genom att lägga på alla */
 .content-section,
 .image-section,
 .oppettider,
 .main-wrapper h1 {
-    border: 1px solid #111;
+    border: 2px solid #111;
 }
 
 .grid-container {
@@ -40,6 +23,7 @@ header {
     grid-column: 1 / 13;
 
 }
+
 
 .content-section {
     border-radius: 5px;
@@ -87,7 +71,7 @@ header {
 .pos {
     text-decoration: none;
     list-style: none;
-    border-bottom: 1px solid #111;
+    border-bottom: 2px solid #111;
 }
 
 .pos h3 span {
@@ -97,7 +81,7 @@ header {
 }
 
 .pos1 {
-    border-top: 1px solid #111;
+    border-top: 2px solid #111;
 }
 
 .pos3 p {

@@ -13,4 +13,22 @@
     --color-fourth: pink;
     --color-fifth: orange;
 }
+* {
+    box-sizing: border-box;
+}
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--ff-primary);
+}
+
+p {
+    font-family: var(--ff-secondary);
+    font-size: 20px;
+    
+}
+
+body {
+    background: linear-gradient(#ffffff, #cccccc);
+    margin: 0;
+    padding: 0;
+}

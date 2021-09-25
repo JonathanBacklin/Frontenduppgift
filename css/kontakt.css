@@ -1,0 +1,133 @@
+@import url('root.css');
+@import url('navbar.css');
+@import url('footer.css');
+@import url('style.css');
+
+
+.contact-section, .main-section,.sidebar-section,.main-contact {
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+
+
+.grid-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / 13;
+}
+header {
+    grid-column: 1 / 13;
+}
+
+.contact-section {
+    grid-column: 1 / 13;
+    background-color: var(--color-fourth);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 10px;
+    
+}
+.main-section {
+    grid-column: 1 / 7;
+    background-color: var(--color-fourth);
+    min-height: 100px;
+    margin: 10px 0;
+}
+
+.main-content {
+padding: 30px;
+}
+
+.main-content label {
+    font-family: var(--ff-primary);
+    font-weight: 600;
+}
+input[type=text],select, textarea {
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+input[type=text]:hover,select:hover, textarea:hover {
+    border: 1px solid #111;
+}
+
+input[type=submit] {
+    font-family: var(--ff-primary);
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+input[type=submit]:hover {
+    border: 1px solid black;
+}
+
+
+.main-section h1 {
+    text-align: center;
+    text-decoration: underline;
+}   
+.sidebar-section {
+    grid-column: 8 / 13;
+    background-color: var(--color-fourth);
+    margin: 10px 0;
+
+}
+
+.info h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.info-child {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #111;
+}
+.last-child {
+    border-bottom: 1px solid #111;
+}
+.info-button {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info button {
+    font-family: var(--ff-primary);
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.info button:hover {
+    border: 1px solid black;
+}
+
+
+@media (max-width:1200px) {
+    .main-section {
+        grid-column: 1 / 13;
+}
+    .sidebar-section {
+        grid-column: 1 / 13;
+}
+
+}
