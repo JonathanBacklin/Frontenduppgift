@@ -8,12 +8,10 @@ footer {
     border-top: 2px solid #111;
     padding: 30px;
     margin-top: 40px;
-    /* width: 90%;
-    margin: 40px auto 0 auto; */
     
 }
 .footer-container {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -45,7 +43,7 @@ footer {
 }
 
 .medier {
-    grid-column: 7 / 13;
+    grid-column: 9 / 13;
     align-self: center;
 }
 .medier h1 {
@@ -57,11 +55,13 @@ footer {
     justify-content: space-evenly;
     font-size: 50px;
 }
+
+/* göra lite mer responsiv med uppdelningen av lådor vid lite större än 1000px */
 @media (max-width:1000px) {
 
     footer {
         display: block;
-        border: 2px solid #111;
+        
     }
     .footer-container {
         display: block;

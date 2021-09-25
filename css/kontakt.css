@@ -24,7 +24,6 @@ header {
 .contact-section {
     grid-column: 1 / 13;
     background-color: var(--color-fourth);
-    min-height: 100px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 10px;
@@ -34,6 +33,7 @@ header {
     grid-column: 1 / 7;
     background-color: var(--color-fourth);
     min-height: 100px;
+    margin: 10px 0;
 }
 
 .main-content {
@@ -81,7 +81,7 @@ input[type=submit]:hover {
 .sidebar-section {
     grid-column: 8 / 13;
     background-color: var(--color-fourth);
-    min-height: 100px;
+    margin: 10px 0;
 
 }
 
