@@ -1,28 +1,6 @@
 @import url('root.css');
 
-/* <footer>
-<div class="footer-container">
-    <div class="footer-item">
-        <!-- <i class="fas fa-phone"></i> -->
-    <a href=""><p>085-513-5435</p></a>
-</div>
-    <div class="footer-item">
-        <!-- <i class="fas fa-envelope"></i> -->
-   <a href=""><p>infoakebar @gmail.com</p></a>
-</div>
-    <div class="footer-item">
-    <!-- <i class="fas fa-map-marker-alt"></i> -->
-   <a href=""><p>Isafjordgatan 30A</p></a>
-</div>
-</div>
-<div class="medier">
-    <!-- <h1>Sociala Medier</h1> -->
-    <div class="sociala-medier">
-<a href=""><div class="footer-item-2"><i class="fab fa-instagram-square"></i></div></a>
-<a href=""><div class="footer-item-2"><i class="fab fa-twitter"></i></div></a>
-<a href=""><div class="footer-item-2"><i class="fab fa-facebook-square"></i></div></div></a> 
-</footer>
-</footer> */
+
 footer {
     grid-column: 1 / 13;
     display: grid;
@@ -30,6 +8,8 @@ footer {
     border-top: 2px solid #111;
     padding: 30px;
     margin-top: 40px;
+    /* width: 90%;
+    margin: 40px auto 0 auto; */
     
 }
 .footer-container {

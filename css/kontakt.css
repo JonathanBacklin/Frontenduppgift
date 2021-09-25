@@ -4,17 +4,6 @@
 @import url('style.css');
 
 
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-html,body {
-    background: linear-gradient(#ffffff, #cccccc);
-}
-
 .contact-section, .main-section,.sidebar-section,.main-contact {
     border-radius: 10px;
     border: 2px solid #111;
@@ -66,6 +55,9 @@ input[type=text],select, textarea {
     margin-bottom: 16px;
     resize: vertical; 
 }
+input[type=text]:hover,select:hover, textarea:hover {
+    border: 1px solid #111;
+}
 
 input[type=submit] {
     font-family: var(--ff-primary);
@@ -75,7 +67,13 @@ input[type=submit] {
     padding: 10px;
     border-radius: 10px;
     border: none;
+
 }
+input[type=submit]:hover {
+    border: 1px solid black;
+}
+
+
 .main-section h1 {
     text-align: center;
     text-decoration: underline;
@@ -87,10 +85,42 @@ input[type=submit] {
 
 }
 
-.sociala-medier-box {
+.info h1{
     text-align: center;
     text-decoration: underline;
 }
+
+
+
+.info-child {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #111;
+}
+.last-child {
+    border-bottom: 1px solid #111;
+}
+.info-button {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info button {
+    font-family: var(--ff-primary);
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.info button:hover {
+    border: 1px solid black;
+}
+
 
 @media (max-width:1200px) {
     .main-section {

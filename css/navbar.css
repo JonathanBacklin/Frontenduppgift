@@ -1,22 +1,6 @@
 @import url('root.css');
 
 
-/* <nav class="navbar">
-<div class="navbar-container">
-    <div class="logo">
-        <a href=""><img src="/Images/Ake.png" alt=""></a>
-    </div>
-    <ul class="menu"> 
-        <li><a href="" class="menu-btn"><span>B</span>okningar</a></li>
-        <li><a href="" class="menu-btn"><span>M</span>eny</a></li>
-        <li><a href="" class="menu-btn"><span>A</span>fter<span>W</span>ork</a></li>
-        <li><a href="Kontakt.html" class="menu-btn"><span>K</span>ontakta</a></li>
-    </ul>
-    <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-    </div>
-</div>
-</nav> */
 
 .navbar {
     margin: 0;
