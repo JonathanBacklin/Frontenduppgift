@@ -129,10 +129,14 @@ main {
     .main-wrapper p {
         display: none;
     }
-.image-section {
-    display: block;
-}
+    .image-section {
+        display: block;
+    }
 .main-image {
+    display: none;
     border: none;
+}
+.oppettider {
+    grid-column: 1 / 13;
 }
 }

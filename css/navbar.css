@@ -57,7 +57,7 @@
 }
 .navbar .menu li a:hover {
     color: var(--color-secondary);
-    text-decoration: underline;
+    text-decoration: underline 3px;
 }
 .menu-btn {
     color:var(--color-secondary) ;
