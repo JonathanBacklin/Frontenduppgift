@@ -1,0 +1,132 @@
+@import url('root.css');
+@import url('navbar.css');
+@import url('style.css');
+@import url('footer.css');
+
+
+.main-section,.arbeta-section,
+.resume-section,.first-section,
+.second-section,.third-section,
+.picture-section {
+    border: 2px solid #111;
+    border-radius: 10px;
+}
+
+.main-section {
+    grid-column: 1 / 13;
+    background-color: var(--color-fourth);
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.main-section h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.different-sections {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.first-section {
+    margin: 0 5px;
+}
+.second-section {
+    margin: 0 5px;
+}
+.third-section {
+    margin: 0 5px;
+}
+
+.arbeta-section {
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding: 10px;
+}
+
+.resume-section {
+    grid-column: 1 / 6;
+    background: var(--color-fourth);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.resume-section label {
+    font-family: var(--ff-primary);
+    font-weight: 600;
+}
+input[type=text] {
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=text]:hover,
+input[type=submit]:hover,
+.custom-file-upload:hover {
+    box-shadow: 0 0 0 1pt #111;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.custom-file-upload {
+    font-family: var(--ff-primary);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 10px 5px;
+}
+input[type=submit] {
+    background: none;
+    font-family: var(--ff-primary);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.picture-section {
+    grid-column: 7 / 13;
+    background: url('/Images/Arbetsintervju.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+@media (max-width:1300px) {
+    .resume-section {
+        grid-column: 1 /13;
+    }
+    .picture-section {
+        display: none;
+    }
+}
+@media (max-width:768px) {
+
+    .buttons {
+        display: block;
+    }
+}
