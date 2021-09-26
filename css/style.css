@@ -9,6 +9,7 @@
 .oppettider,.main-image,
 .main-wrapper h1 {
     border: 2px solid #111;
+    border-radius: 10px;
 }
 
 .grid-container {
@@ -21,7 +22,6 @@
 
 header {
     grid-column: 1 / 13;
-
 }
 
 
@@ -39,8 +39,7 @@ header {
     grid-column: 1 / 13;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 600px;
-    border-radius: 10px;
+    
     padding: 20px;
     background-color: var(--color-fourth);
 }
@@ -49,14 +48,12 @@ header {
     grid-column: 1 / 8;
     background: url('/Images/beerpic.jpg');
     background-size: cover;
-    height: auto;
-    border-radius: 10px;
+    
     
 }
 
 .image-section  .oppettider{
     grid-column: 9 / 13;
-    border-radius: 10px;
     padding: 20px;
 }
 
@@ -66,22 +63,25 @@ header {
 
 .image-section  .oppettider h1{
     text-align: center;
+    color: var(--color-third);
 }
 
 .pos {
     text-decoration: none;
     list-style: none;
-    border-bottom: 2px solid #111;
+    border-bottom: 1px solid #111;
 }
 
-.pos h3 span {
+.pos h2 span {
     text-decoration: none;
     margin: 0;
-    color: var(--color-fifth);
+    color: var(--color-third);
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .pos1 {
-    border-top: 2px solid #111;
+    border-top: 1px solid #111;
 }
 
 .pos3 p {
@@ -104,28 +104,31 @@ main {
 .main-wrapper {
     text-align: center;
     padding: 10px;
-    border-radius: 10px;
     grid-column: 2 / 12;
     margin: 20px;
 }
 
 .main-wrapper h1 {
     padding: 30px;
-    display: inline-block;
     font-family: var(--ff-primary);
-    border-radius: 10px;
+    color: var(--color-third);
+    word-wrap: break-word; 
 }
 .main-wrapper p {
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     font-size: 20px;
  }
- .main-wrapper p span {
-     color: var(--color-third);
- }
+
 
 
 @media (max-width:1000px) {
+    .main-wrapper {
+        grid-column: 1 / 13;
+    }
+    .main-wrapper p {
+        display: none;
+    }
 .image-section {
     display: block;
 }
