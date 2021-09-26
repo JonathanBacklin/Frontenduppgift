@@ -43,18 +43,27 @@
             
         <div class="resume-section">
             <form action="/">
-                <label for="fname">Förnamn</label>
+                <label for="fname">Förnamn:</label>
                 <input type="text" id="fname" name="firstname" placeholder="Förnamn..">
             
-                <label for="lname">Efternamn</label>
+                <label for="lname">Efternamn:</label>
                 <input type="text" id="lname" name="lastname" placeholder="Efternamn..">
                 <div class="buttons">
-                <label for="file-upload" class="custom-file-upload">Ladda Upp CV</label>
+                    <div class="button-content">
+                        <i class="fas fa-file-upload"></i>
+                <label for="file-upload" class="custom-file-upload">CV</label>
                 <input id="file-upload" type="file"/>
-                <label for="file-upload" class="custom-file-upload">Ladda Upp Personligt Brev</label>
+            </div>
+            <div class="button-content">
+                <i class="fas fa-file-upload"></i>
+                <label for="file-upload" class="custom-file-upload">Personligt Brev</label>
                 <input id="file-upload" type="file"/>
-                <label for="file-upload" class="custom-file-upload" multiple>Ladda Upp Extra</label>
+            </div>
+                <div class="button-content">
+                    <i class="fas fa-file-upload"></i>
+                <label for="file-upload" class="custom-file-upload" multiple> Extra</label>
                 <input id="file-upload" type="file"/>
+            </div>
             </div>
             <input type="submit" value="Submit">
               </form>
