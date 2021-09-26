@@ -1,0 +1,41 @@
+@import "root.css";
+@import "navbar.css";
+@import "footer.css";
+@import "style.css";
+
+.menu-container {
+  margin: 2% auto;
+  background-color: var(--color-fifth);
+  width: 90vw;
+  height: 100%;
+  border: 1px solid #333;
+  padding: 2%;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 2%;
+  min-height: 150vh;
+}
+.outer-box {
+  display: flex;
+  flex-direction: row;
+}
+.inner-box,
+.inner-box2 {
+  padding: 0 2%;
+  flex-direction: column;
+  min-width: 45%;
+  max-width: 45%;
+}
+.menu-heading {
+  font-weight: bolder;
+}
+
+.menu-part-heading {
+  color: var(--color-fifth);
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+/*GRID*/
