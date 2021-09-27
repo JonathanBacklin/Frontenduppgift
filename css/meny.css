@@ -17,6 +17,12 @@
   gap: 2%;
   min-height: 150vh;
 }
+
+h2,
+h3 {
+  font-size: 1em;
+  font-weight: bolder;
+}
 .outer-box {
   display: flex;
   flex-direction: row;
@@ -38,13 +44,17 @@
   margin: 2px;
   padding: 0 2%;
 }
+.inner-box-heading {
+  font-size: 90%;
+  color: var(--color-third);
+}
 .menu-item-description {
   display: flex;
 }
 .menu-heading {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bolder;
-  margin: 0;
+  margin-bottom: 0;
 }
 .menu-part {
   border: 1px solid #333;
