@@ -25,6 +25,7 @@ footer {
     padding: 30px;
     border-radius: 10px;
     font-weight: 700;
+    word-wrap: break-word;
 }
 .footer-item p {
     font-family: var(--ff-primary);

@@ -32,7 +32,7 @@
         
     }
 
-    .logo a img{
+.logo a img{
     max-height: 200px;
     margin: 0;
     max-width: inherit;
@@ -53,11 +53,11 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a span {
-    color: var(--color-fifth);
+    color: var(--color-third);
 }
 .navbar .menu li a:hover {
     color: var(--color-secondary);
-    text-decoration: underline;
+    text-decoration: underline 3px;
 }
 .menu-btn {
     color:var(--color-secondary) ;
@@ -78,8 +78,8 @@
     }
     .navbar .menu {
         position: fixed;
-        background: #111;
-        height: 100vh;
+        background: var(--color-fourth);
+        height: 100%;
         width: 100%;
         left: -1000%;
         top: 0;
