@@ -5,7 +5,7 @@
 
 .menu-container {
   margin: 2% auto;
-  background-color: var(--color-fifth);
+  background-color: rgba(255, 166, 0, 0.8) /*var(--color-fifth)*/;
   width: 90vw;
   height: 100%;
   border: 1px solid #333;
@@ -21,21 +21,82 @@
   display: flex;
   flex-direction: row;
 }
-.inner-box,
+.inner-box1,
 .inner-box2 {
   padding: 0 2%;
   flex-direction: column;
   min-width: 45%;
   max-width: 45%;
 }
+.outer-drinks-box {
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+.inner-drink-box1,
+.inner-drink-box2 {
+  margin: 2px;
+  padding: 0 2%;
+}
 .menu-heading {
   font-weight: bolder;
+  margin: 0;
 }
-
+.menu-part {
+  border: 1px solid #333;
+  background-color: var(--color-fourth) /*rgba(128, 0, 128, 0.719)*/;
+  color: var(--color-secondary);
+}
 .menu-part-heading {
-  color: var(--color-fifth);
+  color: var(--color-third);
   text-align: center;
   border-bottom: 1px solid #333;
+  padding-bottom: 0.5%;
+  margin-top: 1%;
+  height: 1.5em;
+}
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.menu-item-price {
+  text-align: end;
+}
+.menu-item-description {
+  font-size: 90%;
+  margin-top: 4px;
+}
+/*GRID DESKTOP*/
+.menu-heading {
+  grid-column: 1/14;
+  grid-row: 1/2;
+  justify-self: center;
+}
+.drinks-part {
+  grid-column: 8/14;
+  grid-row: 2/17;
+}
+.starters-part {
+  grid-column: 1/8;
+  grid-row: 2/7;
+}
+.mains-part {
+  grid-column: 1/8;
+  grid-row: 7/17;
+}
+.childrens-part {
+  grid-column: 1/8;
+  grid-row: 17/21;
+}
+.desserts-part {
+  grid-column: 8/14;
+  grid-row: 17/21;
 }
 
-/*GRID*/
+/*GRID TABLET*/
+@media screen and(min-width: 768px) and(max-width: 960px) {
+}
+
+/*GRID MOBILE*/
+@media screen and(max-width: 768px) {
+}
