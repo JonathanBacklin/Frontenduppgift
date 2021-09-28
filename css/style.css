@@ -85,6 +85,7 @@ header {
 }
 
 .pos3 p {
+    font-family: var(--ff-primary);
     color: rgb(151, 12, 12);
     font-weight:bolder;
 }
