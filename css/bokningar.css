@@ -126,7 +126,7 @@ header {
                grid-column: 3 / 13; 
                margin: 2px auto;   
 }   
-              [class=content]:hover {
+              [class*=content]:hover {
               transform: scale(1);  
          }
   } 
