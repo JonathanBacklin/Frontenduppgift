@@ -26,7 +26,7 @@
 }
 .bord {
      grid-column: 1 / 4;
-     margin: 0 15px;
+     margin-left: 10px;
 }
 
 .event {
@@ -72,8 +72,8 @@
 .content4 {
     background-image: url("/Images/Shuffleboard.jpg");
    background-blend-mode: multiply;
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
     background-size: cover;
     background-position: center;
 
@@ -90,8 +90,7 @@
 
 
 [class*=content] {
-   border: 2px;
-    border-radius: 5px;
+    border-radius: 5px; 
     position: relative;
     height: 100%;
     width: 100%;
@@ -109,4 +108,5 @@
 header {
     grid-column: 1 / 13;
 }
+
 
