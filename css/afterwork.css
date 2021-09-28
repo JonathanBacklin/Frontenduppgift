@@ -10,21 +10,24 @@
 }
 
 .main-content-section {
-    grid-column: 1 / 13;
+    grid-column: 1 / 12;
 }
 
 
 .drinkar1 {
-    grid-column: 8/13;
+   
+    grid-column: 7/12;
+    grid-row: 2/3;
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
     background-color: var(--color-fourth);
     border-radius: 10px;
 }
-.meni1 {
+.meni1{
+    
     grid-column: 2/6;
-    grid-row: 2/3;
+    
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
@@ -33,7 +36,9 @@
     
 }
 .aw-event {
+    
     grid-column: 2/6;
+    grid-row: 1/1;
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
@@ -42,8 +47,11 @@
     
 
 }
-.oppettider {
-    grid-column: 8/13;
+
+
+
+.oppettider1 {
+    grid-column: 7/12;
     margin: 20px 0;
     padding: 20px;
     border: 2px solid black;
