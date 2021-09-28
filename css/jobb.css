@@ -45,6 +45,7 @@
     grid-column: 1 / 5;
     margin: 0 5px;
     word-wrap: break-word;
+    background: var(--color-fourth);
 }
 
 .first-section-content,.third-section-content {
@@ -73,6 +74,7 @@
 .third-section {
     grid-column: 9 / 13;
     margin: 0 5px;
+    background: var(--color-fourth);
 }
 
 .third-section-content li {

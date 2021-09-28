@@ -23,7 +23,7 @@ header {
 
 .contact-section {
     grid-column: 1 / 13;
-    background-color: var(--color-fourth);
+    background-color: var(--color-fifth);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 10px;
