@@ -6,20 +6,32 @@
 
 
 
-.drinkar {
-    grid-column: 2 / 12;
-    margin: 20px 0;
-}
-.meni {
-    grid-column: 12 /12;
-    margin: 20px 0;
-}
-.aw-event {grid-column: 12 /12;
-    margin: 20px 0;
-}
-.oppettider {
-    grid-column: 12 /12;
+.drinkar1 {
+    grid-column: 1/8;
     margin: 20px 0;
     padding: 50px;
+    border: 2px solid black;
+}
+.meni1 {
+    grid-column: 1/13;
+    margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    
+}
+.aw-event {
+    grid-column: 1/6;
+    margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    
+
+}
+.oppettider {
+    grid-column: 9/13;
+    margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    
 
 }
