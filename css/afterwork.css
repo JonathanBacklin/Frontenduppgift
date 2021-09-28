@@ -11,12 +11,14 @@
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
+    background-color: var(--color-fourth);
 }
 .meni1 {
-    grid-column: 1/13;
+    grid-column: 7/13;
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
+    background-color: var(--color-fourth);
     
 }
 .aw-event {
@@ -24,6 +26,7 @@
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
+    background-color: var(--color-fourth);
     
 
 }
@@ -32,6 +35,7 @@
     margin: 20px 0;
     padding: 50px;
     border: 2px solid black;
+    background-color: var(--color-fourth);
     
 
 }
