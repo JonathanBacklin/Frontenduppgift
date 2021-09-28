@@ -5,7 +5,7 @@
 
 .menu-container {
   margin: 0 auto;
-  background-color: rgba(255, 166, 0, 0.8) /*var(--color-fifth)*/;
+  background-color: var(--color-fifth);
   width: 90%;
   border: 1px solid #333;
   padding: 2%;

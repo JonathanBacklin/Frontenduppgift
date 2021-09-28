@@ -11,7 +11,7 @@
     --color-secondary: black;
     --color-third: purple;
     --color-fourth: pink;
-    --color-fifth: orange;
+    --color-fifth: rgba(255, 166, 0, 0.8);
 }
 * {
     box-sizing: border-box;
