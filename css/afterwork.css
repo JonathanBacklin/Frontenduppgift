@@ -6,19 +6,36 @@
 
 
 
-.drinkar {
-    grid-column: 2 / 12;
+.drinkar1 {
+    grid-column: 1/8;
     margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: var(--color-fourth);
 }
-.meni {
-    grid-column: 12 /12;
+.meni1 {
+    grid-column: 7/13;
     margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: var(--color-fourth);
+    
 }
-.aw-event {grid-column: 12 /12;
+.aw-event {
+    grid-column: 1/6;
     margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: var(--color-fourth);
+    
+
 }
 .oppettider {
-    grid-column: 12 /12;
+    grid-column: 9/13;
     margin: 20px 0;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: var(--color-fourth);
+    
 
 }
