@@ -110,7 +110,8 @@ header {
 }
 
 @media (max-width:1450px) {   
-     .main-page { min-height: 1000px;     }    
+     .main-page { min-height: 1000px;     
+    }    
       .bord {         
           width: 100%;        
            height: 100%;   
@@ -122,12 +123,10 @@ header {
                display: block;   
 }    
                [class=content] {  
-                   
                grid-column: 3 / 13; 
                margin: 2px auto;   
 }   
-              [class=content]:hover { 
-
+              [class=content]:hover {
               transform: scale(1);  
          }
   } 
@@ -144,8 +143,10 @@ header {
         margin: 10px auto;
         
       }  
-              [class*=content]  {
-                
-               height: 400px;  
+
+    [class*=content]
+     {  
+         height: 400px;  
+
      } 
  }
