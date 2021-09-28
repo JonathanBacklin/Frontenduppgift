@@ -17,6 +17,18 @@
   min-height: 200vh;
 }
 
+.menu-container,.menu-part {
+  border-radius: 10px;
+}
+.menu-part-heading {
+  width: 90%;
+  margin: 0 auto;
+}
+.nav-wrapper,.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 h2,
 h3 {
   font-size: 1em;

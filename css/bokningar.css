@@ -1,152 +1,139 @@
-@import url('root.css');
-@import url('navbar.css');
-@import url('style.css');
-@import url('footer.css');
+@import url("root.css");
+@import url("navbar.css");
+@import url("style.css");
+@import url("footer.css");
 
 .container {
-    width: 90%; 
-    margin: 0 auto;
-    display: grid;
-	grid-template-columns: repeat(12, 1fr);
-    grid-column: 1 / 13;
-   
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column: 1 / 13;
 }
 
 .main-page {
-    grid-column: 1 / 13;
-    min-height: 600px;
-    border: solid 2px #444;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    padding: 15px;
-    border-radius: 10px;
-    background-color: var(--color-fourth);
-
-
+  grid-column: 1 / 13;
+  min-height: 600px;
+  border: solid 2px #444;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--color-fourth);
 }
 .bord {
-     grid-column: 1 / 4;
-     margin-left: 10px;
+  grid-column: 1 / 4;
 }
 
 .event {
-   grid-column:  4 / 13;
-   display: flex;
-   justify-content: space-evenly;
-   
+  grid-column: 4 / 13;
+  display: flex;
+  justify-content: space-evenly;
 }
 .content {
-    background-image: url("/Images/Bokabord.jpg");
-    background-size: cover;
-    color: white;
-    text-align: center;
+  background-image: url("/Images/Bokabord.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
-
 
 .content-2 {
-    background-image: url("/Images/Biljard.jpg");
-    width: 100%;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    background-repeat: no-repeat;
+  background-image: url("/Images/Biljard.jpg");
+  width: 100%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
 }
-[class*=content] h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
+[class*="content"] h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 
 .content3 {
-    background-image: url("/Images/bowling3.jpg");
-    height: 100%;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("/Images/bowling3.jpg");
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .content4 {
-    background-image: url("/Images/Shuffleboard.jpg");
-   background-blend-mode: multiply;
-    color: white;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-
+  background-image: url("/Images/Shuffleboard.jpg");
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 .content5 {
-    background-image: url("/Images/Dart2.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-align: center;
-    background-position: left;
+  background-image: url("/Images/Dart2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  background-position: left;
 }
 
-
-[class*=content] {
-    border-radius: 5px; 
-    position: relative;
-    height: 100%;
-    width: 100%;
-    margin: 10px 0;
-    Cursor: Pointer;
+[class*="content"] {
+  border-radius: 5px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 10px;
+  cursor: Pointer;
 }
 
-[class*=content]:hover {
-    transform: scale(1.03);
-    transition: all 0,3s ease-in-out;
-
+[class*="content"]:hover {
+  transform: scale(1.03);
+  transition: all 0, 3s ease-in-out;
 }
-
 
 header {
-    grid-column: 1 / 13;
+  grid-column: 1 / 13;
 }
 
-@media (max-width:1450px) {   
-     .main-page { min-height: 1000px;     
-    }    
-      .bord {         
-          width: 100%;        
-           height: 100%;   
-}     
-           .event {         
-               margin: 0 auto;         
-               width: 90%;         
-               height: 25%;         
-               display: block;   
-}    
-               [class=content] {  
-               grid-column: 3 / 13; 
-               margin: 2px auto;   
-}   
-              [class=content]:hover {
-              transform: scale(1);  
-         }
-  } 
-@media (max-width:700px) {  
-       .bord,.event  { 
-      grid-column: 1 / 13;     
-        width: 100%;     
-        margin: 10px auto;   
-        
-     }     
-     .bord .content
-      {    
-        height: 90%; 
-        margin: 10px auto;
-        
-      }  
 
-    [class*=content]
-     {  
-         height: 400px;  
+@media (max-width: 1450px) {
+  .main-page {
+    min-height: 1000px;
+  }
+  .bord {
+    width: 100%;
+    height: 100%;
+  }
+  .event {
+    margin: 0 auto;
+    width: 90%;
+    height: 25%;
+    display: block;
+  }
+  [class*="content"] {
+    grid-column: 3 / 13;
+    margin: 2px auto;
+  }
+  [class="content"]:hover {
+    transform: scale(1);
+  }
+}
+@media (max-width: 700px) {
+  .bord,
+  .event {
+    grid-column: 1 / 13;
+    width: 100%;
+    margin: 2px auto;
+  }
+  [class*="content"] {
+    background-position: center;
+    height: 400px;
+  }
+  [class*="content"]:hover {
+    transform: scale(1, 1);
+  }
+}
 
-     } 
- }
