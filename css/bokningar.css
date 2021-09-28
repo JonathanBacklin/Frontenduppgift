@@ -94,7 +94,7 @@
     position: relative;
     height: 100%;
     width: 100%;
-    margin: 10px 0;
+    margin:0 10px;
     Cursor: Pointer;
 }
 
@@ -122,7 +122,7 @@ header {
                height: 25%;         
                display: block;   
 }    
-               [class=content] {  
+               [class*=content] {  
                grid-column: 3 / 13; 
                margin: 2px auto;   
 }   
@@ -134,19 +134,16 @@ header {
        .bord,.event  { 
       grid-column: 1 / 13;     
         width: 100%;     
-        margin: 10px auto;   
+        margin: 2px auto;   
         
      }     
-     .bord .content
-      {    
-        height: 90%; 
-        margin: 10px auto;
-        
-      }  
-
-    [class*=content]
+ [class*=content]
      {  
+         background-position: center;
          height: 400px;  
 
      } 
+     [class*=content]:hover {
+        transform: scale(1,1);  
+   }
  }
