@@ -23,21 +23,24 @@
 }
 .bord {
   grid-column: 1 / 4;
+  justify-content: space-evenly;
 }
 
 .event {
   grid-column: 4 / 13;
   display: flex;
   justify-content: space-evenly;
+  margin-left: 5px;
 }
 .content {
   background-image: url("/Images/Bokabord.jpg");
   background-size: cover;
   color: white;
   text-align: center;
+ 
 }
 
-.content-2 {
+.content2 {
   background-image: url("/Images/Biljard.jpg");
   width: 100%;
   background-size: cover;
@@ -85,7 +88,7 @@
   position: relative;
   height: 100%;
   width: 100%;
-  margin: 0 10px;
+  margin-left: 5px;
   cursor: Pointer;
 }
 
