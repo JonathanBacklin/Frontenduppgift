@@ -12,9 +12,8 @@
   padding-top: 0;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
   gap: 2%;
-  min-height: 210vh;
+  min-height: 250vh;
 }
 
 .menu-container,
@@ -62,6 +61,7 @@ h3 {
 }
 .inner-box-heading {
   color: var(--color-third);
+  font-size: 1.2em;
 }
 .menu-item-description {
   display: flex;
@@ -143,7 +143,7 @@ h3 {
     padding-top: 0;
     row-gap: 1%;
     font-size: 80%;
-    min-height: 180vh;
+    min-height: 250vh;
   }
   .menu-heading {
     grid-column: 1/7;
@@ -184,7 +184,7 @@ h3 {
   .menu-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto, 1fr);
-    min-height: 300vh;
+    min-height: 320vh;
     grid-gap: 1%;
     font-size: 70%;
   }
