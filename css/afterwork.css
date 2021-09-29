@@ -10,7 +10,7 @@
 }
 
 .main-content-section {
-    grid-column: 1 / 12;
+    grid-column: 1 / 13;
 }
 
 
@@ -61,6 +61,7 @@
 
 }
 .main-content-section {
+    margin: 0 auto ;
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
@@ -75,7 +76,7 @@
 @media (max-width:1000px) {
     .main-content-section {
       display: block;  
-      display: center;
+     
     }
     
 }
