@@ -93,7 +93,9 @@ footer {
         
     }
     .footer-item p {
+
         font-size: 20px;
+
     }  
     .footer-item:hover {
         transform: scale(1.05);

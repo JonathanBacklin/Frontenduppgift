@@ -15,17 +15,20 @@
 
 
 .drinkar1 {
-    grid-column: 8/13;
-    margin: 20px 0;
+   
+    grid-column: 7/12;
+    grid-row: 2/3;
+    margin: 20px 25px;
     padding: 50px;
     border: 2px solid black;
     background-color: var(--color-fourth);
     border-radius: 10px;
 }
-.meni1 {
+.meni1{
+    
     grid-column: 2/6;
-    grid-row: 2/3;
-    margin: 20px 0;
+    
+    margin: 20px 25px;
     padding: 50px;
     border: 2px solid black;
     background-color: var(--color-fourth);
@@ -33,8 +36,10 @@
     
 }
 .aw-event {
+    
     grid-column: 2/6;
-    margin: 20px 0;
+    grid-row: 1/1;
+    margin: 20px 25px;
     padding: 50px;
     border: 2px solid black;
     background-color: var(--color-fourth);
@@ -42,9 +47,12 @@
     
 
 }
-.oppettider {
-    grid-column: 8/13;
-    margin: 20px 0;
+
+
+
+.oppettider1 {
+    grid-column: 7/12;
+    margin: 20px 25px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -53,6 +61,7 @@
 
 }
 .main-content-section {
+    margin: 0 auto ;
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
@@ -67,6 +76,7 @@
 @media (max-width:1000px) {
     .main-content-section {
       display: block;  
+     
     }
     
 }
