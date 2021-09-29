@@ -109,10 +109,11 @@ header {
   .bord {
     width: 100%;
     height: 100%;
+    padding: 0 5px;
   }
   .event {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: 25%;
     display: block;
   }
@@ -120,7 +121,7 @@ header {
     grid-column: 3 / 13;
     margin: 2px auto;
   }
-  [class="content"]:hover {
+  [class*="content"]:hover {
     transform: scale(1);
   }
 }
