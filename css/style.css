@@ -3,7 +3,7 @@
 @import url('footer.css');
 
 
-/* förenkla koden för border radius genom att lägga på alla */
+/* Simular Styling Code*/
 .content-section,
 .image-section,
 .oppettider,.main-image,
@@ -12,6 +12,7 @@
     border-radius: 10px;
 }
 
+/* Main sections */
 .grid-container {
     width: 90%;
     margin: 0 auto;
@@ -20,11 +21,12 @@
     grid-column: 1 / 13;
 }
 
+/* Navbar Box */
 header {
     grid-column: 1 / 13;
 }
 
-
+/* Main Content */
 .content-section {
     border-radius: 5px;
     grid-column: 1 / 13;
@@ -32,9 +34,28 @@ header {
     grid-template-columns: repeat(12, 1fr);
     margin: 20px 0;
     background-color: var(--color-fourth);
-    
+}
+.main-wrapper {
+    text-align: center;
+    padding: 10px;
+    grid-column: 2 / 12;
+    margin: 20px;
 }
 
+.main-wrapper h1 {
+    padding: 30px;
+    font-family: var(--ff-primary);
+    color: var(--color-third);
+    word-wrap: break-word; 
+}
+
+.main-wrapper p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+ }
+
+/*Image Section*/
 .image-section {
     grid-column: 1 / 13;
     display: grid;
@@ -52,13 +73,15 @@ header {
     
 }
 
+
+/*Öppettider*/
 .image-section  .oppettider{
     grid-column: 9 / 13;
     padding: 20px;
 
 }
 
-.oppettider > h1 {
+.oppettider  h1 {
     text-decoration: underline;
 }
 
@@ -91,39 +114,10 @@ header {
     font-weight:bolder;
 }
 
-main {
-    grid-column: 1 / 13;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-}
-
-.test {
-    grid-column: 2 / 12;
-    margin: 20px 0;
-}
-
-.main-wrapper {
-    text-align: center;
-    padding: 10px;
-    grid-column: 2 / 12;
-    margin: 20px;
-}
-
-.main-wrapper h1 {
-    padding: 30px;
-    font-family: var(--ff-primary);
-    color: var(--color-third);
-    word-wrap: break-word; 
-}
-.main-wrapper p {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
- }
 
 
 
+ /* Responsiveness*/
  @media (max-width:1000px) {
     .main-wrapper {
         grid-column: 1 / 13;

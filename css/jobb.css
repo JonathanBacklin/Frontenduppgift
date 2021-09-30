@@ -3,7 +3,7 @@
 @import url('style.css');
 @import url('footer.css');
 
-
+/*Simular Styling code*/
 .main-section,.arbeta-section,
 .resume-section,.first-section,
 .third-section,.picture-section,.image {
@@ -20,7 +20,7 @@
     
 }
 
-
+/*Main Section*/
 .main-section {
     grid-column: 1 / 13;
     background-color: var(--color-fourth);
@@ -55,7 +55,8 @@
     margin: 20px auto;
     padding: 10px;
 }
-.first-section-content h3,.third-section-content h3 {
+.first-section-content h3,
+.third-section-content h3 {
     text-decoration: underline;
  }
  
@@ -83,6 +84,8 @@
     margin: 10px 0;
 }
 
+
+/*Second Section*/
 .arbeta-section {
     grid-column: 1 / 13;
     display: grid;
@@ -169,7 +172,7 @@ input[type=submit] {
     margin: 10px 0;
 }
 
-
+/*Responsiveness*/
 @media (max-width:1300px) {
     .resume-section {
         grid-column: 1 /13;
